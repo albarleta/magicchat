@@ -159,6 +159,14 @@ function Chat() {
         {/* Chat Input */}
         <div className="p-4 border-t">
           <form onSubmit={handleSubmit} className="flex space-x-4">
+            <div className="flex gap-2">
+              <button className="px-8 py-2 bg-blue-200 rounded-md text-white font-bold">
+                AI
+              </button>
+              <button className="px-8 py-2 bg-blue-200 rounded-md text-white font-bold">
+                Human
+              </button>
+            </div>
             <input
               type="file"
               id="file-upload"
